@@ -1,0 +1,74 @@
+
+#topbreak {
+	height: 0px;
+}
+
+p {
+	color: green;
+	border: 10px dotted orange;
+	padding: 1rem;
+	margin: 2rem;
+}
+
+body {
+	/* background-color: 000; */
+	padding-top:0;
+	margin: 0;
+	background-image: url('galaxy.png');
+    background-size: 100px;
+    background-attachment:fixed;
+    background-repeat:repeat;
+    font-size: 60px;
+}
+
+#topbanner {
+	color: rgba(240, 60, 255, 1);
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 50px;
+	background-color:black;
+	background-size:contain;
+	width:100%;
+}
+
+#timebutton{
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	size-adjust: 200px;
+	width: 500px;
+}
+
+.navtabs {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex: 1;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+#navhead {
+	background-color:dodgerblue;
+	color: rgb(255, 106, 0);
+	font-size: 30px;
+	padding: 10px;
+}
+
+
+.navtabs > div {
+  background-color: #f1f1f1;
+  flex: 1;
+  width:100%;
+  max-width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+}
+
+.navtabs > div:nth-child(2n) {
+	background-color: #767676;
+  }
